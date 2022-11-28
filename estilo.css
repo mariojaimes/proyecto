@@ -1,0 +1,30 @@
+body {
+    background-color: darkslategrey;
+    padding: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu {
+    background-color: dimgrey;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: azure;
+    display: block;
+    padding: 1vw 8vw;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: lightseagreen;
+}
